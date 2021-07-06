@@ -1,7 +1,7 @@
 # custom-countdown
 This Custom Countdown allows users to input an event name and a date to count down to from today's date. 
 
-#Link
+# Link
 https://jsmitthimedhin.github.io/custom-countdown/
 
 I used the getTime() function to retrieve the input date's standard milisecond(s). I then converted it to variables of seconds, minutes, hours, days using the documentation and allowed it to populate the UI. Since the return data is static, I created function that would allow me to re-run the function every second to allow the UI to look like it's "counting down." 
